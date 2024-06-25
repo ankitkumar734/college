@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* General styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Topbar Start */
+.fixed-top .container {
+  transition: 0.5s;
+}
+
+.topbar {
+  padding: 2px 10px 2px 20px;
+  background: var(--bs-primary) !important;
+}
+
+.topbar a,
+.topbar a i {
+  transition: 0.5s;
+}
+
+
+
+.text-light {
+  text-decoration: none;
+}
+
+
+
+.navbar-brand,.navbar-nav .nav-link{
+   font-size: 15px;
+   font-weight: 500;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nav-link:hover{
+  color: #e96b56
+}
+
+
+/* Dropdown menu on hover */
+.navbar .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li  a:hover {
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   
+  
+}
+.dropdown-menu li .dropdown-item{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+   font-weight: 500;
+}
+
+/* Dropdown menu on hover */
+.navbar .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Change background color of dropdown menu on hover */
+.navbar .dropdown-menu {
+  background-color: #f8f9fa; /* Default background color */
+}
+
+.navbar .dropdown-menu .dropdown-item:hover {
+  background-color: #02abe0; /* Background color on hover */
+  color: #fff; /* Text color on hover */
+}
+
+/* Ensure the top bar is always visible on small screens */
+@media (max-width: 576px) {
+  .container-fluid {
+    padding: 0 15px;
+  }
+
+  .topbar a {
+    font-size: 12px;
+  }
+
+  .btn-square {
+    padding: 5px; /* Adjust padding for buttons on smaller screens */
+  }
+
+  .navbar-brand img {
+    width: 50px; /* Adjust logo size for smaller screens */
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 14px; /* Adjust font size for nav links on smaller screens */
+  }
+}
+
+
+/* about */
+
+.logo{
+  border-radius: 5px;}
+
+.section-header , h2,P {
+  font-family: Georgia,'Times New Roman', Times, serif;
+}
+
+.abouth1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.aboutP{
+  text-align: justify;
+  font-size: 15px;
+  font-family:  sans-serif, 'Times New Roman', Times, serif
+}
+.card-text{
+  font-family: 'Times New Roman', Times, serif;
+}
+.card-body,.btn{
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+/* Add margin to cards on mobile devices */
+@media (max-width: 576px) {
+  .card-mobile-margin {
+    margin: 5px;
+  }
+}
+
+
+/* Custom CSS for margin between rows */
+.team .row {
+  margin-bottom: 10px;
+}
+
+
+.text-white{
+  text-decoration:  none;
+}
+
+
+
+
+/* extra infromation part  start*/
+
+.h5-bg-container {
+  background-color:  #02abe0; 
+  color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+ 
+}
+
+.card {
+  width: 100%; 
+}
+
+.card-img-top {
+  height: 200px; 
+  object-fit: cover; 
+}
+
+.btn-custom {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.card-body{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+/* extra infromation part   end */
+
+
+
+
+/* contact form */
+
+
+
+
+.contact .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.section-header{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+
+
+
+/*hsdhgdh*/
+
+
+
+.contact-form {
+  background: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  
+}
+
+.form-section {
+  margin-bottom: 30px;
+}
+
+.form-title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+
+/* footer start */
+
+
+.footP{
+  font-family:'Times New Roman', Times, serif;
+}
+
+
